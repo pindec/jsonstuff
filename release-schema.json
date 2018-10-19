@@ -1,0 +1,16 @@
+{
+  "definitions": {
+    "Contract": {
+      "properties": {
+        "suspended": {
+          "title": "Is the contract suspended?",
+          "description": "A true/false field to indicate whether the contract is suspended i.e. the contract is active but work is temporarily stopped.",
+          "type": [
+            "boolean",
+            "null"
+          ]
+        }
+      }
+    }
+  }
+}
